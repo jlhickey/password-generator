@@ -1,6 +1,6 @@
 #style.css
 
-body {
+.body {
   background-color:#D3D3D3;
   color: #FFFF;
   min-height: 500vh;
@@ -38,9 +38,6 @@ body {
   align-items: center;
   border: 3px dotted #000;
 }
-
- 
-
 
 
 .title {
