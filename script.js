@@ -1,11 +1,11 @@
 
 
-const result = document.getElementById.ById('password');
+const result = document.getElementById('password');
 const length = document.getElementById("length");
 const lower = document.getElementById("lower");
 const incUpper = document.getElementById("Upper");
-const incNumbers = document.getElementById("numbers");
-const incSymbols = document.getElementById("symbols");
+const incNumber = document.getElementById("number");
+const incSymbol = document.getElementById("symbol");
 const generateBtn = document.getElementById("generate");
 
  
@@ -16,8 +16,8 @@ generateEl.addEventListener("click", () => {
     const length = +lengthEL.value;
     const haslower = lowercaseEl.checked;
     const hasUpper = UppercaseEl.checked;
-    const hasNumber = numbersEl.checked;
-    const hasSymbol = symbolsEl.checked;
+    const hasNumber = numberEl.checked;
+    const hasSymbol = symbolEl.checked;
  
     if (typesCount === 0) {
         retun '';
@@ -39,7 +39,7 @@ function GetRandomlower(){
 }
 
 function GetRandomUpper(){
-    return string.fromCharcode (math.floor(math.random() * 26) * 65);
+    return string.fromCharcode (math.floor(math.random() * 26) * length);
 }  
 function GetRandomNumber(){
     return string.fromCharcode (math.floor(math.random() * 10) *48);
